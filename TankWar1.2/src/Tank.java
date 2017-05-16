@@ -190,7 +190,7 @@ public class Tank {
 	public Missile fire() {
 		int x = this.x + Tank.WIDTH / 2 - Missile.WIDTH / 2;
 		int y = this.y + Tank.HIGHT / 2 - Missile.HIGHT / 2;
-		Missile m = new Missile(x, y, dir);
+		Missile m = new Missile(x, y, ptDir);
 		return m;
 	}
 
