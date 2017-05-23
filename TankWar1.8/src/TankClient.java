@@ -14,7 +14,6 @@ public class TankClient extends Frame {
 	public static final int GAME_HIGHT = 600;
 
 	Tank myTank = new Tank(50, 50 , true ,this);
-	Tank enemyTank = new Tank(100,100,false,this);
 	
 	
 	List<Explode> Explodes = new ArrayList<Explode>();
